@@ -1,0 +1,13 @@
+header:
+  - title:      Home
+    url:        /
+  - title:      Blog
+    url:        /blog_articles.html
+  - title:      Partners
+    url:        /contrib_partners.html
+  - title:      Resources
+    url:        /resources_page.html
+  - title:      People in the Space
+    url:        /people_in_space.html
+  - title:      Contact Us
+    url:        /contact.html

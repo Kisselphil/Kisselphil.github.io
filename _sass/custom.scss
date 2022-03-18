@@ -1,0 +1,485 @@
+/* start custom scss snippet */
+.flex-brandon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-partners {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.team-item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
+}
+
+.team-content {
+  @include flex(1.1);
+  min-width: 10rem;
+  margin-right: 1rem;
+  max-width: 18rem;
+}
+
+.swiper-demo {
+  height: 600px;
+}
+
+/**********************************/
+/********* Team #9 Style **********/
+/**********************************/
+.team-9 {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.team-9:hover {
+  transform: rotateY(180deg);
+}
+
+.team-9 .team-img {
+  position: relative;
+  font-size: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-9 .team-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.team-9 .team-content {
+  text-align: center;
+}
+
+.team-9 .team-content h2 {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.team-9 .team-content h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.team-9 .team-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background: #ffffff;
+  border-radius: 5px;
+  transform: rotateY(180deg);
+}
+
+.team-9 .team-overlay p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.team-9 .team-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+}
+
+.team-9 .team-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  padding: 11px 0 10px 0;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 100%;
+  transition: all 0.3s;
+}
+
+.team-9 .team-social a.social-tw {
+  background: #00acee;
+}
+
+.team-9 .team-social a.social-fb {
+  background: #3b5998;
+}
+
+.team-9 .team-social a.social-li {
+  background: #0e76a8;
+}
+
+.team-9 .team-social a.social-in {
+  background: #3f729b;
+}
+
+.team-9 .team-social a.social-yt {
+  background: #c4302b;
+}
+
+.team-9 .team-social a.social-gh {
+  @include clickable($text-color-1, $github-color);
+}
+
+.team-9 .team-social a:last-child {
+  margin-right: 0;
+}
+
+.team-9 .team-social a:hover {
+  background: #222222;
+}
+
+/**********************************/
+/***** Layout & Section Title *****/
+/**********************************/
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.column {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .column {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .column {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .column {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.section-title {
+  width: 100%;
+  text-align: center;
+  padding: 45px 0 30px 0;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 5px;
+  left: calc(50% - 25px);
+  background: #353535;
+}
+
+.section-title h1 {
+  color: #353535;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767.98px) {
+  .section-title h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 567.98px) {
+  .section-title h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
+
+/* end custom scss snippet */
+
+.card-contact {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: map-get($base, border-radius);
+  @include box-shadow();
+  @include transition(
+    box-shadow map-get($animation, duration)
+      map-get($animation, timing-function)
+  );
+  & > :first-child {
+    border-top-left-radius: map-get($base, border-radius);
+    border-top-right-radius: map-get($base, border-radius);
+  }
+  & > :last-child {
+    border-bottom-right-radius: map-get($base, border-radius);
+    border-bottom-left-radius: map-get($base, border-radius);
+  }
+}
+
+.cell {
+  & > .card-contact {
+    max-width: unset;
+  }
+}
+
+.card-contact__content {
+  padding: map-get($spacers, 2) map-get($spacers, 3);
+  display: table-caption;
+}
+
+.card-contact__header,
+.card-contact__header > a {
+  @include link-colors($text-color-d, $main-color-1);
+}
+
+.card-contact__image {
+  position: relative;
+  width: 100%;
+  & > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+  }
+  & > .overlay {
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    padding: map-get($spacers, 2);
+    a {
+      text-decoration: none !important;
+    }
+  }
+  & > .overlay,
+  & > .overlay--top {
+    top: 0;
+    bottom: auto;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  & > .overlay--bottom {
+    top: auto;
+    bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+  }
+  & > .overlay--full {
+    top: 0;
+    bottom: 0;
+  }
+  & > .overlay,
+  & > .overlay--dark {
+    @extend .text--dark;
+    background-color: rgba(#000, 0.4);
+  }
+  & > .overlay--light {
+    @extend .text--light;
+    background: rgba(#fff, 0.4);
+  }
+}
+
+.card-contact--clickable {
+  cursor: pointer;
+  @include hover() {
+    @include box-shadow(2);
+    .card-contact__image {
+      & > img {
+        height: inherit;
+      }
+    }
+  }
+  @include transition(map-get($clickable, transition));
+}
+
+.card-contact--flat {
+  @include box-shadow(0);
+  .card-contact__image {
+    & > img {
+      border-radius: map-get($base, border-radius);
+    }
+  }
+  .card-contact__content {
+    padding-top: 0;
+    padding-left: 0;
+  }
+}
+
+.flex-contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100%;
+}
+
+a {
+  display: inline-block;
+}
+object {
+  pointer-events: none;
+}
+
+.ex3 .parent {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  background: rgb(30, 30, 40);
+}
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #0578c5;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #cc4949;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #0578c5;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #cc4949;
+}
+
+.main-brandon {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 0 5rem;
+}

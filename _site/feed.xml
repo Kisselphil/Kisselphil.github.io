@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-17T11:26:16-04:00</updated><id>http://localhost:4000/feed.xml</id><subtitle>Your Site Description
+</subtitle><author><name>Virginia Philosophy Reality Lab</name></author><entry><title type="html">Releasing of RUDE Package</title><link href="http://localhost:4000/2022/02/18/Releasing-RUDE-Package.html" rel="alternate" type="text/html" title="Releasing of RUDE Package" /><published>2022-02-18T00:00:00-05:00</published><updated>2022-02-18T00:00:00-05:00</updated><id>http://localhost:4000/2022/02/18/Releasing-RUDE-Package</id><content type="html" xml:base="http://localhost:4000/2022/02/18/Releasing-RUDE-Package.html"><![CDATA[<h1 id="testing">TEsting</h1>
+
+<h2 id="woah">Woah</h2>
+<p>Hey everyone!</p>
+
+<p>We have released a dynamic logging system for Unity VR enviroments that we like to call RUDE (Research Unity Data Extractor).</p>
+
+<p>You can find information about how to use at the <a href="https://github.com/vmasc-capabilities-lab/RUDE">public GitHub repository</a></p>]]></content><author><name>Virginia Philosophy Reality Lab</name></author><summary type="html"><![CDATA[TEsting Woah Hey everyone! We have released a dynamic logging system for Unity VR enviroments that we like to call RUDE (Research Unity Data Extractor). You can find information about how to use at the public GitHub repository]]></summary></entry></feed>
