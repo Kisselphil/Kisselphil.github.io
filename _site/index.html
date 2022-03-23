@@ -254,7 +254,8 @@
     window.TEXT_VARIABLES = TEXT_VARIABLES;
   })();
 </script>
-</head>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
   <body>
     <div class="root" data-is-touch="false">
       <div class="layout--page js-page-root"><div class="page__main js-page-main page__viewport cell cell--auto">
@@ -282,7 +283,10 @@
 <!-- end custom main top snippet -->
 <article itemscope itemtype="http://schema.org/Article"><meta itemprop="headline" content="Virginia Philosophy Reality Lab"><meta itemprop="author" content="Virginia Philosophy Reality Lab"/><div class="js-article-content">
                       <div class="main"><div class="layout--article">
-  <div class="article__content" itemprop="articleBody"># A little about the lab.. 
+  <div class="article__content" itemprop="articleBody"><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+
+# A little about the lab.. 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus cras adipiscing enim eu. Suspendisse ultrices gravida dictum fusce ut placerat orci. Molestie at elementum eu facilisis sed odio morbi quis commodo. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Egestas pretium aenean pharetra magna ac. Morbi non arcu risus quis varius. Neque egestas congue quisque egestas diam in arcu. Pulvinar elementum integer enim neque volutpat. Posuere lorem ipsum dolor sit. Tincidunt arcu non sodales neque sodales ut etiam. A pellentesque sit amet porttitor eget dolor morbi non. Dui sapien eget mi proin sed. Nisl rhoncus mattis rhoncus urna neque. Eget nunc lobortis mattis aliquam faucibus purus in massa. Consectetur adipiscing elit ut aliquam purus sit amet. Tortor condimentum lacinia quis vel.
 
 Nullam ac tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis. In vitae turpis massa sed elementum tempus. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Cras ornare arcu dui vivamus arcu felis. Dignissim enim sit amet venenatis. Suscipit tellus mauris a diam maecenas sed enim ut sem. Viverra orci sagittis eu volutpat odio facilisis mauris. Auctor elit sed vulputate mi sit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum. Cras tincidunt lobortis feugiat vivamus at. Metus dictum at tempor commodo ullamcorper a lacus. Id ornare arcu odio ut sem nulla pharetra. Luctus accumsan tortor posuere ac ut consequat semper. Augue mauris augue neque gravida.
@@ -714,6 +718,18 @@ Massa vitae tortor condimentum lacinia quis vel. Ac tortor vitae purus faucibus 
     document.addEventListener('touchstart', function(){}, false);
   }
 })();
+</script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
 </script>
   </body>
 </html>
