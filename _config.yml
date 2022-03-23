@@ -225,5 +225,6 @@ plugins:
   - jemoji
 
 collections:
-  - contrib_partners
+  contrib_partners:
+    output: true
 

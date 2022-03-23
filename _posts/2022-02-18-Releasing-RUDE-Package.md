@@ -4,6 +4,7 @@ title: Releasing of RUDE Package
 aside:
   toc: true
 license: false
+defualt_width: true
 ---
 # TEsting
 
