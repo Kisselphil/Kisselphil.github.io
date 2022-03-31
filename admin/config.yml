@@ -65,10 +65,10 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - label: "Header Info"
             name: "article_header"
-            widget: "hidden"
+            widget: "text"
             fields:
               - label: "Image"
                 name: "background_image"
-                widget: "hidden"
+                widget: "text"
                 fields:
                   - {label: "Header Image", name: "src", widget: "image"}
