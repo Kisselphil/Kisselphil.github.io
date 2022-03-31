@@ -1,7 +1,7 @@
 ---
 layout: article
 license: "false"
-defualt_width: "true"
+defualt_width: true
 aside:
   toc: "true"
 title: Brandon Testing
