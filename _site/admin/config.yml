@@ -10,9 +10,38 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "partners" # Used in routes, e.g., /admin/collections/blog
+    label: "People in the Space" # Used in the UI
+    folder: "_contrib_partners" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
+      - {label: "Partner Name", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Partner Image", name: "cover", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "resources" # Used in routes, e.g., /admin/collections/blog
+    label: "Resources" # Used in the UI
+    file: "resources_page.md" # The path to the folder where the documents are stored
+    fields: # The fields for each document, usually in front matter
+      - {label: "Page Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "navigation" # Used in routes, e.g., /admin/collections/blog
+    label: "Navigation Bar" # Used in the UI
+    file: "_data/navigation.yml" # The path to the folder where the documents are stored
+    fields: # The fields for each document, usually in front matter
+      - {label: "Page Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Navigation Items
+          name: header
+          widget: list
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: URL, name: url, widget: string}

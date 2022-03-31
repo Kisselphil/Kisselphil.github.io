@@ -10,6 +10,7 @@ Weclome to the VPRL Resource page, here you can find links to various acadamic p
 
 # Youtube
 
+<!-- THis is a youtube example -->
 <div class="embed-container">{%- include extensions/youtube.html id='MoGW3ySNRqg' -%}</div>
 
 ## Links
