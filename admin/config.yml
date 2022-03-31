@@ -31,13 +31,14 @@ collections:
 
   - name: "resources" # Used in routes, e.g., /admin/collections/blog
     label: "Resources" # Used in the UI
-    files: "resources_page.md" # The path to the folder where the documents are stored
+    files: ["resources_page.md"] # The path to the folder where the documents are stored
     fields: # The fields for each document, usually in front matter
       - {label: "Page Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "navigation" # Used in routes, e.g., /admin/collections/blog
     label: "Navigation Bar" # Used in the UI
-    files: "_data/navigation.yml" # The path to the folder where the documents are stored
+    files: ["_data/navigation.yml"] # The path to the folder where the documents are stored
     fields: # The fields for each document, usually in front matter
       - label: "Navigation Items"
         name: header
