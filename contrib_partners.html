@@ -4,6 +4,17 @@ title:
 articles:
   show_excerpt: true
   type: team
+partners:
+  -
+    name: "name"
+    bio: "is an Assistant Professor holding a joint appointment in the Department of Philosophy and Religious Studies and the Institute for the Humanities at Old Dominion University. He received his PhD from The Ohio State University in philosophy in 2017.His research focuses on the ways that experimental work in the cognitive sciences informs our understanding of widespread beliefs concerning free will and moral responsibility in virtual and non-virtual contexts"
+  -
+    name: "name"
+    bio: "is an Assistant Professor holding a joint appointment in the Department of Philosophy and Religious Studies and the Institute for the Humanities at Old Dominion University. He received his PhD from The Ohio State University in philosophy in 2017.His research focuses on the ways that experimental work in the cognitive sciences informs our understanding of widespread beliefs concerning free will and moral responsibility in virtual and non-virtual contexts"
+  -
+    name: "name"
+    bio: "is an Assistant Professor holding a joint appointment in the Department of Philosophy and Religious Studies and the Institute for the Humanities at Old Dominion University. He received his PhD from The Ohio State University in philosophy in 2017.His research focuses on the ways that experimental work in the cognitive sciences informs our understanding of widespread beliefs concerning free will and moral responsibility in virtual and non-virtual contexts"
+   
 ---
 
 <!-- ---
@@ -22,57 +33,26 @@ articles:
   </div>
 
 <div class="flex-partners">
-
+  {%- for partner in page.partners -%}
   <div class="team-item">
     <div class="item__image">
       <img class="image image--lg" src="./assets/images/uploads/AKissel.jpeg" style="border-radius: 50%;"/>
     </div>
     <div class="team-content">
       <div class="item__header">
-        <h4>Andrew Kissel</h4>
+        <h4>{{ partner.name }}</h4>
       </div>
       <div class="item__description">
-        <p>is an Assistant Professor holding a joint appointment in the Department of Philosophy and Religious Studies and the Institute for the Humanities at Old Dominion University. He received his PhD from The Ohio State University in philosophy in 2017.
-          His research focuses on the ways that experimental work in the cognitive sciences informs our understanding of widespread beliefs concerning free will and moral responsibility in virtual and non-virtual contexts.</p>
+        <p>{{ partner.bio }}</p>
       </div>
     </div>
   </div>
 
-  <div class="team-item">
-    <div class="item__image">
-      <img class="image image--lg" src="./assets/images/uploads/AKissel.jpeg" style="border-radius: 50%;"/>
-    </div>
-    <div class="team-content">
-      <div class="item__header">
-        <h4>Andrew Kissel</h4>
-      </div>
-      <div class="item__description">
-        <p>is an Assistant Professor holding a joint appointment in the Department of Philosophy and Religious Studies and the Institute for the Humanities at Old Dominion University. He received his PhD from The Ohio State University in philosophy in 2017.
-          His research focuses on the ways that experimental work in the cognitive sciences informs our understanding of widespread beliefs concerning free will and moral responsibility in virtual and non-virtual contexts.</p>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- <div class="item">
-    <div class="item__image">
-      <img class="image image--sm" src="./assets/AKissel.jpeg"/>
-    </div>
-    <div class="item__content">
-      <div class="item__header">
-        <h4>Photograph</h4>
-      </div>
-      <div class="item__description">
-        <p>is an Assistant Professor holding a joint appointment in the Department of Philosophy and Religious Studies and the Institute for the Humanities at Old Dominion University. He received his PhD from The Ohio State University in philosophy in 2017.
-          His research focuses on the ways that experimental work in the cognitive sciences informs our understanding of widespread beliefs concerning free will and moral responsibility in virtual and non-virtual contexts.</p>
-      </div>
-    </div>
-  </div>
-</div> -->
+  {%- endfor -%}
 </div>
 
 <div class="flex-partners">
+
 <div class="team-item">
   <div class="item__image">
     <img class="image image--lg" src="./assets/images/uploads/AKissel.jpeg" style="border-radius: 50%;"/>
@@ -87,6 +67,7 @@ articles:
     </div>
   </div>
 
+    
   
 </div>
 

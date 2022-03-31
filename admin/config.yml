@@ -62,13 +62,14 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Show title", name: "show_title", widget: "boolean", default: true}
-          - label: "Header Info"
-            name: "article_header"
-            widget: "hidden"
-            fields:
-              - label: "Image"
-                name: "background_image"
-                widget: "hidden"
-                fields:
-                  - {label: "Header Image", name: "src", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Partners Page"
+        name: "contrib_partners"
+        file: "contrib_partners.html"
+        fields:
+          - label: "Partners"
+            name: partners
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Bio, name: bio, widget: markdown}
