@@ -29,20 +29,40 @@ collections:
       - {label: "Partner Image", name: "cover", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "resources" # Used in routes, e.g., /admin/collections/blog
-    label: "Resources" # Used in the UI
-    files: ["resources_page.md"] # The path to the folder where the documents are stored
-    fields: # The fields for each document, usually in front matter
-      - {label: "Page Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "resources" # Used in routes, e.g., /admin/collections/blog
+  #   label: "Resources" # Used in the UI
+  #   files: ["resources_page.md"] # The path to the folder where the documents are stored
+  #   fields: # The fields for each document, usually in front matter
+  #     - {label: "Page Title", name: "title", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "navigation" # Used in routes, e.g., /admin/collections/blog
-    label: "Navigation Bar" # Used in the UI
-    files: ["_data/navigation.yml"] # The path to the folder where the documents are stored
-    fields: # The fields for each document, usually in front matter
-      - label: "Navigation Items"
-        name: header
-        widget: list
+  # - name: "navigation" # Used in routes, e.g., /admin/collections/blog
+  #   label: "Navigation Bar" # Used in the UI
+  #   files: ["_data/navigation.yml"] # The path to the folder where the documents are stored
+  #   fields: # The fields for each document, usually in front matter
+  #     - label: "Navigation Items"
+  #       name: header
+  #       widget: list
+  #       fields:
+  #         - {label: Title, name: title, widget: string}
+  #         - {label: URL, name: url, widget: string}
+
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Resources Page"
+        name: "resources"
+        file: "resources_page.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: URL, name: url, widget: string}
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Navigation Bar"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation Items"
+            name: header
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: string}
