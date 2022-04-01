@@ -6,7 +6,7 @@ This site is built with the [Jekyll](https://jekyllrb.com/docs/) static site gen
 
 To get started:
 
-- Install NodeJS
+- Install [NodeJS](https://nodejs.org/en/download/)
 - Install Jekyll
 - Run `npm ci` to install dependencies
 - Run `npm run serve` to start a dev server. 
