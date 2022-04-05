@@ -1,9 +1,19 @@
 ---
 layout: articles
+title: Contributors + Partners
+articles:
+  data_source: site.contrib_partners
+  show_excerpt: true
+  show_readmore: true
+---
+
+<!-- ---
+layout: articles
 title: null
 articles:
-  show_excerpt: true
-  type: team
+show_excerpt: true
+type: team
+full_width: true
 partners:
   - name: THIS IS BRANDON TESTING
     bio: is an Assistant Professor holding a joint appointment in the Department of
@@ -29,20 +39,31 @@ partners:
       experimental work in the cognitive sciences informs our understanding of
       widespread beliefs concerning free will and moral responsibility in
       virtual and non-virtual contexts
----
-
-<!-- ---
-layout: articles
-title: 
-full_width: true
-articles:
-  data_source: site.contrib_partners
-  show_excerpt: true
-  type: team
 --- -->
+<!--  -->
+
+<!-- <div class="grid partners-grid">
+  {%- for partner in page.partners -%}
+   <div class="cell cell--2">
+    <div class=" cell card">
+      <div class="card__image">
+        <img class="image" src="/assets/images/uploads/AKissel.jpeg" />
+      </div>
+    </div>
+    <div class="cell card">
+      <div class="card__content">
+        <div class="card__header">
+          <h4>{{ partner.name }}</h4>
+        </div>
+        <p>{{ partner.bio }}</p>
+      </div>
+    </div>
+  </div>
+  {%- endfor -%}
+</div> 
 
 
-<div class="article__header">
+ <div class="article__header">
     <header><h1>Contributors</h1></header>
   </div>
 
@@ -65,7 +86,7 @@ articles:
   {%- endfor -%}
 </div>
 
-<div class="flex-partners">
+<div class="flex-partners"> -->
 <!-- 
 <div class="team-item">
   <div class="item__image">
@@ -84,7 +105,14 @@ articles:
     
   
 </div>
-
+---
+layout: articles
+title: Articles - Item (Cover + Excerpt + Read More)
+articles:
+  data_source: site.contrib_partners
+  show_excerpt: true
+  show_readmore: true
+---
 
 
 
