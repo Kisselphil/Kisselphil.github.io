@@ -141,7 +141,7 @@ Contains the following editable items:
 
 
 
-#####Youtube Videos
+##### Youtube Videos
   - If you wish to add a youtube video, copy/paste this and replace the id 
   ```html
   <div class="embed-container">{%- include extensions/youtube.html id='MoGW3ySNRqg' -%}</div>
