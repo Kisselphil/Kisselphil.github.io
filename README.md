@@ -157,6 +157,10 @@ Contains a list of the following editable items:
 - Bio
 - Image
 
+### Change domain
+
+https://docs.netlify.com/domains-https/custom-domains/
+
 ### Resources
 
 https://www.markdownguide.org/basic-syntax/
