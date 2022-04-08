@@ -71,7 +71,7 @@ collections:
               - {label: URL, name: url, widget: string}
       - label: "Home Page"
         name: "home"
-        file: "index.html"
+        file: "index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Show title", name: "show_title", widget: "boolean", default: true}
