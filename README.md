@@ -58,10 +58,22 @@ All URL fields are paths to a file within then the main folder.
 
 Found in CMS Collection 'Pages' -> 'Home Page'
 
+To replace the images on the Home page, you must replace the following images with an image file with the exact same name. This is because the website references these exact names when building.
 
-##### Image
+- home_card_1.png
+- home_card_2.png
+- home_card_3.png 
+
+
+##### Images
 
 To replace the main image on the Home page, you must replace the 'site_home_header.png' image with an image file with the exact same name. This is because the website references this exact name when building.
+
+To replace the card images on the Home page, you must replace the following images with an image file with the exact same name. This is because the website references these exact names when building.
+
+- home_card_1.png
+- home_card_2.png
+- home_card_3.png 
 
 ##### Text Content
 
