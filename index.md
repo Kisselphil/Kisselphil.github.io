@@ -22,8 +22,8 @@ The Virginia Philosophy Reality Lab is a partnership between the ODU [Departmen
 <div class="flex-brandon">
 
 ```
-<!-- https://github.com/VPRL/Virginia-Philosophy-Reality-Lab -->
-<a href="">
+<!-- Link to Website goes in href quotations -->
+<a href="https://github.com/VPRL/Virginia-Philosophy-Reality-Lab">
   <div class="card card--clickable">
     <div class="card__image">
       <img class="image" src="assets/images/uploads/home_card_1.png"/>
