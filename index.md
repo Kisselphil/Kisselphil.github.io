@@ -9,7 +9,7 @@ article_header:
   background_image:
     src: assets/images/uploads/site_home_header.png
 ---
-# A little about the lab..
+# A little about the lab...
 
 The Virginia Philosophy Reality Lab is an interdisciplinary coalition of educators and researchers at [Old Dominion University](https://www.odu.edu/) in Norfolk, Virginia, that explores philosophical issues through extended reality (XR) technologies. We are currently developing virtual reality modules on the basis of philosophical thought experiments to be used as educational tools in the classroom and research tools for experimental studies.
 
