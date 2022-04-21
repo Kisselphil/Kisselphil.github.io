@@ -22,7 +22,7 @@ The Virginia Philosophy Reality Lab is a partnership between the ODU [Departmen
 <div class="flex-brandon">
 
 ```
-<!-- Link to website goes here -->
+<!-- https://github.com/VPRL/Virginia-Philosophy-Reality-Lab -->
 <a href="">
   <div class="card card--clickable">
     <div class="card__image">
@@ -31,15 +31,15 @@ The Virginia Philosophy Reality Lab is a partnership between the ODU [Departmen
     <div class="card__content">
       <div class="card__header">
         <!-- Name of resource goes inside the <h4> tags-->
-        <h4>Photograph</h4>
+        <h4>GitHub</h4>
       </div>
       <!-- Description goes inside the <p> tags -->
-      <p>...</p>
+      <p>Click here to go to the Github repo of Open Source VR philosophy projects</p>
     </div>
   </div>
 </a>
 
-<!-- https://github.com/VPRL/Virginia-Philosophy-Reality-Lab -->
+<!-- Link to website goes here -->
 <a href="">
   <div class="card card--clickable">
     <div class="card__image">
@@ -48,10 +48,10 @@ The Virginia Philosophy Reality Lab is a partnership between the ODU [Departmen
     <div class="card__content">
       <div class="card__header">
         <!-- Name of resource goes inside the <h4> tags-->
-          <h4>Our Github</h4>
+          <h4>Open Science Framework</h4>
         </div>
         <!-- Description goes inside the <p> tags -->
-        <p>Click here to go to the Github repo of Open Source VR philosophy projects</p>
+        <p></p>
     </div>
   </div>
 </a>
