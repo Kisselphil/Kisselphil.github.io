@@ -9,73 +9,69 @@ article_header:
   background_image:
     src: assets/images/uploads/site_home_header.png
 ---
-
-
 # A little about the lab..
 
-Lorem ipsum dolor sit amsdset, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus cras adipiscing enim eu. Suspendisse ultrices gravida dictum fusce ut placerat orci. Molestie at elementum eu facilisis sed odio morbi quis commodo. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Egestas pretium aenean pharetra magna ac. Morbi non arcu risus quis varius. Neque egestas congue quisque egestas diam in arcu. Pulvinar elementum integer enim neque volutpat. Posuere lorem ipsum dolor sit. Tincidunt arcu non sodales neque sodales ut etiam. A pellentesque sit amet porttitor eget dolor morbi non. Dui sapien eget mi proin sed. Nisl rhoncus mattis rhoncus urna neque. Eget nunc lobortis mattis aliquam faucibus purus in massa. Consectetur adipiscing elit ut aliquam purus sit amet. Tortor condimentum lacinia quis vel.
+The Virginia Philosophy Reality Lab is an interdisciplinary coalition of educators and researchers at [Old Dominion University](https://www.odu.edu/) in Norfolk, Virginia, that explores philosophical issues through extended reality (XR) technologies. We are currently developing virtual reality modules on the basis of philosophical thought experiments to be used as educational tools in the classroom and research tools for experimental studies.
 
-Nullam ac tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis. In vitae turpis massa sed elementum tempus. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Cras ornare arcu dui vivamus arcu felis. Dignissim enim sit amet venenatis. Suscipit tellus mauris a diam maecenas sed enim ut sem. Viverra orci sagittis eu volutpat odio facilisis mauris. Auctor elit sed vulputate mi sit. Eu tincidunt tortor aliquam nulla facilisi cras fermentum. Cras tincidunt lobortis feugiat vivamus at. Metus dictum at tempor commodo ullamcorper a lacus. Id ornare arcu odio ut sem nulla pharetra. Luctus accumsan tortor posuere ac ut consequat semper. Augue mauris augue neque gravida.
+The Virginia Philosophy Reality Lab is a partnership between the ODU [Department of Philosophy and Religious Studies](https://www.odu.edu/philosophy) and the [Virginia Modelling, Analysis, and Simulation Center](https://www.odu.edu/vmasc). It also works with students and faculty in the ODU [Game Studies & Design Program](https://www.odu.edu/academics/programs/undergraduate/game-studies-design) to create compelling XR experiences that explore philosophical ideas, such as the ethics of life and death decisions in real and virtual contexts.
 
-Massa vitae tortor condimentum lacinia quis vel. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Non nisi est sit amet facilisis magna etiam tempor. Neque viverra justo nec ultrices dui. Arcu dui vivamus arcu felis bibendum ut tristique et. Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Lectus vestibulum mattis ullamcorper velit. Vitae turpis massa sed elementum tempus. Id diam vel quam elementum pulvinar etiam. Vitae congue eu consequat ac felis. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Ut morbi tincidunt augue interdum velit euismod in pellentesque. Metus vulputate eu scelerisque felis imperdiet. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Pellentesque dignissim enim sit amet. Sollicitudin aliquam ultrices sagittis orci a. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Eu augue ut lectus arcu bibendum.
-
-# Some quick thngs to get you started...
+# Some quick things to get you started...
 
 <!-- Do not delete -->
 
 <div class="flex-brandon">
 
-    <!-- Link to website goes here -->
-    <a href="">
-      <div class="card card--clickable">
-        <div class="card__image">
-          <img class="image" src="assets/images/uploads/home_card_1.png"/>
-        </div>
-        <div class="card__content">
-          <div class="card__header">
-            <!-- Name of resource goes inside the <h4> tags-->
-            <h4>Photograph</h4>
-          </div>
-          <!-- Description goes inside the <p> tags -->
-          <p>...</p>
-        </div>
+```
+<!-- Link to website goes here -->
+<a href="">
+  <div class="card card--clickable">
+    <div class="card__image">
+      <img class="image" src="assets/images/uploads/home_card_1.png"/>
+    </div>
+    <div class="card__content">
+      <div class="card__header">
+        <!-- Name of resource goes inside the <h4> tags-->
+        <h4>Photograph</h4>
       </div>
-    </a>
+      <!-- Description goes inside the <p> tags -->
+      <p>...</p>
+    </div>
+  </div>
+</a>
 
-    <!-- Link to website goes here -->
-    <a href="">
-      <div class="card card--clickable">
-        <div class="card__image">
-          <img class="image" src="assets/images/uploads/home_card_2.png"/>
+<!-- https://github.com/VPRL/Virginia-Philosophy-Reality-Lab -->
+<a href="">
+  <div class="card card--clickable">
+    <div class="card__image">
+      <img class="image" src="assets/images/uploads/home_card_2.png"/>
+    </div>
+    <div class="card__content">
+      <div class="card__header">
+        <!-- Name of resource goes inside the <h4> tags-->
+          <h4>Our Github</h4>
         </div>
-        <div class="card__content">
-          <div class="card__header">
-            <!-- Name of resource goes inside the <h4> tags-->
-              <h4>Photograph</h4>
-            </div>
-            <!-- Description goes inside the <p> tags -->
-            <p>...</p>
-        </div>
-      </div>
-    </a>
+        <!-- Description goes inside the <p> tags -->
+        <p>Click here to go to the Github repo of Open Source VR philosophy projects</p>
+    </div>
+  </div>
+</a>
 
-    <!-- Link to website goes here -->
-    <a href="">
-      <div class="card card--clickable">
-        <div class="card__image">
-          <img class="image" src="assets/images/uploads/home_card_3.png"/>
+<!-- Link to website goes here -->
+<a href="">
+  <div class="card card--clickable">
+    <div class="card__image">
+      <img class="image" src="assets/images/uploads/home_card_3.png"/>
+    </div>
+    <div class="card__content">
+      <div class="card__header">
+        <!-- Name of resource goes inside the <h4> tags-->
+          <h4>Photograph</h4>
         </div>
-        <div class="card__content">
-          <div class="card__header">
-            <!-- Name of resource goes inside the <h4> tags-->
-              <h4>Photograph</h4>
-            </div>
-            <!-- Description goes inside the <p> tags -->
-            <p>...</p>
-        </div>
-      </div>
-    </a>
+        <!-- Description goes inside the <p> tags -->
+        <p>...</p>
+    </div>
+  </div>
+</a>
+```
+
 </div>
-
-
-
