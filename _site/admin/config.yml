@@ -29,6 +29,7 @@ collections:
     folder: "_people_in_space" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: "/assets/images/uploads"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
       - {label: "Layout", name: "license", widget: "hidden", default: "false"}
@@ -42,6 +43,7 @@ collections:
     folder: "_contrib_partners" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: "/assets/images/uploads"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
       - {label: "Layout", name: "license", widget: "hidden", default: "false"}
