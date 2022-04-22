@@ -2,7 +2,7 @@
 layout: article
 show_date: false
 title: Krzysztof Rechowicz
-cover: /images/uploads/JShull.jpg
+cover: assets/images/uploads/KRechowicz.jpeg
 ---
 ![]()
 

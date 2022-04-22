@@ -1,0 +1,69 @@
+I"<h1 id="a-little-about-the-lab">A little about the lab…</h1>
+
+<p>The Virginia Philosophy Reality Lab is an interdisciplinary coalition of educators and researchers at <a href="https://www.odu.edu/">Old Dominion University</a> in Norfolk, Virginia, that explores philosophical issues through extended reality (XR) technologies. We are currently developing virtual reality modules on the basis of philosophical thought experiments to be used as educational tools in the classroom and research tools for experimental studies.</p>
+
+<p>The Virginia Philosophy Reality Lab is a partnership between the ODU <a href="https://www.odu.edu/philosophy">Department of Philosophy and Religious Studies</a> and the <a href="https://www.odu.edu/vmasc">Virginia Modelling, Analysis, and Simulation Center</a>. It also works with students and faculty in the ODU <a href="https://www.odu.edu/academics/programs/undergraduate/game-studies-design">Game Studies &amp; Design Program</a> to create compelling XR experiences that explore philosophical ideas, such as the ethics of life and death decisions in real and virtual contexts.</p>
+
+<h1 id="some-quick-things-to-get-you-started">Some quick things to get you started…</h1>
+
+<!-- Do not delete -->
+
+<div class="flex-brandon">
+
+
+<!-- Link to Website goes in href quotations -->
+<a href="https://github.com/VPRL/Virginia-Philosophy-Reality-Lab">
+  <div class="card card--clickable">
+    <div class="card__image">
+      <img class="image" src="assets/images/uploads/home_card_1.png" />
+    </div>
+    <div class="card__content">
+      <div class="card__header">
+        <!-- Name of resource goes inside the <h4> tags-->
+        <h4>GitHub</h4>
+      </div>
+      <!-- Description goes inside the <p> tags -->
+      <p>Click here to go to the Github repo of Open Source VR philosophy projects</p>
+    </div>
+  </div>
+</a>
+
+
+<!-- Link to Website goes in href quotations -->
+<a href="">
+  <div class="card card--clickable">
+    <div class="card__image">
+      <img class="image" src="assets/images/uploads/home_card_2.png" />
+    </div>
+    <div class="card__content">
+      <div class="card__header">
+        <!-- Name of resource goes inside the <h4> tags-->
+          <h4>Open Science Framework</h4>
+        </div>
+        <!-- Description goes inside the <p> tags -->
+        <p></p>
+    </div>
+  </div>
+</a>
+
+
+<!-- Link to Website goes in href quotations -->
+<a href="">
+  <div class="card card--clickable">
+    <div class="card__image">
+      <img class="image" src="assets/images/uploads/home_card_3.png" />
+    </div>
+    <div class="card__content">
+      <div class="card__header">
+        <!-- Name of resource goes inside the <h4> tags-->
+          <h4>Photograph</h4>
+        </div>
+        <!-- Description goes inside the <p> tags -->
+        <p>...</p>
+    </div>
+  </div>
+</a>
+
+
+</div>
+:ET

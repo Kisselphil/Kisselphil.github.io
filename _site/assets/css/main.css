@@ -1054,7 +1054,7 @@ input:focus { outline: none; }
 
 .image { max-width: 100%; }
 
-.image--round { border-radius: 50%; }
+.image--round { border-radius: 50%; height: 12rem; }
 
 .image--md, .image { width: 12rem; }
 
